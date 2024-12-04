@@ -49,3 +49,38 @@ This project focuses on practical cybersecurity training by exploring web applic
 **Metasploit**
 
 **Python**
+### Vulnerabilities in OWASP Juice Shop
+
+**Steps to Install docker and Exploring OWASP Juice Shop Vulnerabilities**
+
+**Install Docker**
+
+```
+sudo apt install docker.io
+```
+
+```
+sudo su
+```
+
+``
+usermod -aG docker {{user-anun}}
+``
+
+```
+su {{user-anun}}
+```
+
+Run 
+```
+docker pull bkimminich/juice-shop
+```
+
+Run 
+```
+docker run --rm -p 127.0.0.1:3000:3000 bkimminich/juice-shop
+```
+
+**Exposes port 3000 on your localhost, allowing you to access
+Juice Shop via http://localhost:3000**
+
