@@ -84,8 +84,9 @@ docker run --rm -p 127.0.0.1:3000:3000 bkimminich/juice-shop
 **Exposes port 3000 on your localhost, allowing you to access
 Juice Shop via http://localhost:3000**
 
-#### SQL Injection
+#### 1. SQL Injection
 **About attack:** SQL Injection exploits improper handling of user inputs in SQL queries. If input fields or URL parameters are not properly sanitized or validated, attackers can inject malicious SQL code to manipulate the query.
 
 **How it was detected:** 
 Lets try to dump system with SQL prompts.
+
