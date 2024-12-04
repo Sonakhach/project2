@@ -98,7 +98,9 @@ Access the administration section of the stor
 
 #### 2. Uploading leaks
 ![im1](
-![im1](
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_04_52_28.png)
+
+
 
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_29_25.png)
 
