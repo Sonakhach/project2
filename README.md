@@ -99,8 +99,11 @@ Access the administration section of the stor
 #### 2. Uploading leaks
 in this page valide only images file  
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_04_51_36.png)
-but we can upload other file too, for exampl .zip,pdf
+but we can upload other file too
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_04_52_28.png)
+ for exampl .zip,pdf
+ 
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_28_40.png)
 
 
 
