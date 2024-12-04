@@ -89,4 +89,4 @@ Juice Shop via http://localhost:3000**
 
 **How it was detected:** 
 Lets try to dump system with SQL prompts.
-
+![im1]
