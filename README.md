@@ -98,3 +98,4 @@ Lets try to dump system with SQL prompts.
 
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_29_25.png)
 
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_08_48_45.png)
