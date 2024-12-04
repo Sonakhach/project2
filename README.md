@@ -102,10 +102,11 @@ in this page valide only images file
 but we can upload other file too
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_04_52_28.png)
  for exampl .zip,pdf
- 
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_29_25.png)
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_28_40.png)
 
 
+#### 3.XSS 
 
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_29_25.png)
 
