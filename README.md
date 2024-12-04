@@ -96,8 +96,9 @@ Login with the administration's user account.
 Access the administration section of the stor
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_03_14_12.png)
 
-
-
+#### 2. Uploading leaks
+![im1](
+![im1](
 
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_29_25.png)
 
