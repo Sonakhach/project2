@@ -90,5 +90,5 @@ Juice Shop via http://localhost:3000**
 **How it was detected:** 
 Lets try to dump system with SQL prompts.
 ![im1](https://github.com/Sonakhach/project2/Screenshot_2024-12-04_03_11_10.png)
-![im1]project2/Screenshot_2024-12-04_03_11_10.png
+![im1]Screenshot_2024-12-04_03_11_10.png
 Screenshot_2024-12-04_03_14_12.png
