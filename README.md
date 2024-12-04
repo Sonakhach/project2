@@ -105,8 +105,12 @@ but we can upload other file too
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_29_25.png)
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_28_40.png)
 
-
-#### 3.XSS 
+#### 3. Weak password
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_14_44_08.png)
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_15_02_45.png)
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_15_05_02.png)
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_14_50_16.png)
+#### 4.XSS 
 
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_29_25.png)
 
