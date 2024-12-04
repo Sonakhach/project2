@@ -106,9 +106,15 @@ but we can upload other file too
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_28_40.png)
 
 #### 3. Weak password
+**Used boolyan OR and write true expration.**
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_14_44_08.png)
+**beafor login turn on burpsuit, catch traffic from proxi, throw reapiter and click send.** 
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_08_35_31.png)
+**Now get tocken from respons section and use convertor**
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_15_02_45.png)
+**Now get heshing password and use somesing algoritm for get true password, may be it weak...**
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_15_05_02.png)
+**Congratulations!!!**
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_14_50_16.png)
 #### 4.XSS 
 
