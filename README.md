@@ -105,7 +105,7 @@ but we can upload other file too
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_29_25.png)
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-02_11_28_40.png)
 
-#### 3. Weak password
+#### 3. Broken Access Control
 **Use boolean OR and write true expression. before login turn on burpsuite, catch traffic from proxy, throw repeater and click send.** 
 
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_14_50_16.png)
