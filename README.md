@@ -146,7 +146,6 @@ payload can be
 
 #### 5. Create the Hidden Page
 
-**Exclude It from Navigation:**
 
 **Do not link this page directly in the app's navigation bar or footer.**
 
