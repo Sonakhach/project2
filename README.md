@@ -96,7 +96,8 @@ Login with the administration's user account.
 Access the administration section of the stor
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_03_14_12.png)
 
-#### 2. Uploading leaks
+#### 2. Security Misconfiguration
+Uploading leaks
 in this page valide only images file  
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-04_04_51_36.png)
 but we can upload other file too
