@@ -133,6 +133,8 @@ The payload is
 ```
 <IFRAME SRC="javascript:alert('XSS');"></IFRAME>
 ```
+**Injecting JavaScript into input fields like search or feedback forms.**
+
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot%20from%202024-12-05%2002-52-29.png)
 
 payload can be 
