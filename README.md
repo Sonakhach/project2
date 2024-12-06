@@ -149,4 +149,7 @@ payload can be
 
 **Do not link this page directly in the app's navigation bar or footer.**
 
+**From now on you will see the additional menu item Score Board in the navigation bar.**
+
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-05_16_52_37.png)
+
