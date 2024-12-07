@@ -144,7 +144,7 @@ payload can be
 ```
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot%20from%202024-12-05%2002-54-11.png))
 
-#### 5. Create the Hidden Page
+#### 5. Find the Hidden Page
 
 
 **Do not link this page directly in the app's navigation bar or footer.**
@@ -153,3 +153,30 @@ payload can be
 
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-05_16_52_37.png)
 
+### RootMe CTF
+#### 1. What is RootMe CTF?
+**RootMe CTF is a Capture The Flag (CTF) challenge designed for beginners to test their hacking skills and gain hands-on experience with cybersecurity.**
+
+The first step is to deploy the virtual machine. You can find it on [TryHackMe](https://tryhackme.com/room/rrootme). As it deploys, take note of the IP address assigned to your instance. If you want to work by vpn, need download vpn package and give some permission.
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot%20from%202024-12-07%2021-28-57.png)
+```
+chmod +x [filename]
+```
+```
+sudo openvpn [filename]
+```
+
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-06_15_08_53.png)
+ 
+#### 3. What tools are used in RootMe CTF?
+In RootMe CTF, you’ll use tools like Nmap for scanning,Use GoBuster to discover hidden directories, and various commands for privilege escalation.
+```
+nmap -sV [TARGET MACHINE IP]
+```
+```
+gobuster dir -u [MACHINE IP] -w [WORDLIST PATH]
+```
+![im1](
+
+#### 4. How can I escalate my privileges in RootMe CTF?
+To escalate privileges, you’ll need to find files with SUID permissions and then use a specific Python command to gain higher access.
