@@ -46,9 +46,8 @@ This project focuses on practical cybersecurity training by exploring web applic
 
 **Gobuster**
 
-**Metasploit**
-
 **Python**
+
 ### Vulnerabilities in OWASP Juice Shop
 
 **Steps to Install docker and Exploring OWASP Juice Shop Vulnerabilities**
