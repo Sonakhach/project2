@@ -242,3 +242,24 @@ find / -type f -name root.txt
 Then run:``` cat /root/root.txt```
 
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot%20from%202024-12-07%2022-37-30.png)
+
+### Running Nmap scans on the Metasploitable or CTF server to detect services and vulnerabilities
+
+Assuming that we have already up our Metasploitable and Kali(or different environment for working).
+IP know when writeing **ifconfig** on Metasploitable terminal /**eth0 192.168.10.41**/
+
+
+
+**Nmap scans:**
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_17_01_58.png)
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_17_03_25.png)
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_17_04_13.png)
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_17_04_41.png)
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_17_05_02.png)
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_17_05_44.png)
+
+**Developing a custom Python-based Nmap scanner that performs similar functions**
+
+My Nmap scanning on Metasploitable /**eth0 192.168.10.41**/
+
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot%20from%202024-12-08%2002-29-17.png)
