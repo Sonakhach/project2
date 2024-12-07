@@ -178,5 +178,6 @@ gobuster dir -u [MACHINE IP] -w [WORDLIST PATH]
 ```
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_10_54_46.png)
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_10_22_26.png)
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_10_51_34.png)
 #### 3. How can I escalate my privileges in RootMe CTF?
 To escalate privileges, you’ll need to find files with SUID permissions and then use a specific Python command to gain higher access.
