@@ -186,7 +186,7 @@ gobuster dir -u [MACHINE IP] -w [WORDLIST PATH]
 ```
 mv php_reverse_shell.php php_reverse_shell.php5
 ```
- **We will proceed furthur and upload the script ```ip/panel```**
+ **We will proceed furthur and upload the script ``` http://<MACHINE_IP>/panel/```**
  
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_10_52_57.png)
 
@@ -199,7 +199,7 @@ Run the command:
 nc -lvnp <PORT>
 ```
 
-**After that open ``` ip/uploads`` and see uploads files 
+**After that Execute the script by double-clicking it at  ```(http://<MACHINE_IP>/uploads/)``` and see uploads files 
 Execute the script and check back to see your netcat listener.**
 You will see that we have successfully gained the shell.
 
