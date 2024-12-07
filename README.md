@@ -165,10 +165,10 @@ chmod +x [filename]
 ```
 sudo openvpn [filename]
 ```
-
+**sometime you need start mashin or see IP**
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-06_15_08_53.png)
  
-#### 3. What tools are used in RootMe CTF?
+#### 2. What tools are used in RootMe CTF?
 In RootMe CTF, you’ll use tools like Nmap for scanning,Use GoBuster to discover hidden directories, and various commands for privilege escalation.
 ```
 nmap -sV [TARGET MACHINE IP]
@@ -176,7 +176,7 @@ nmap -sV [TARGET MACHINE IP]
 ```
 gobuster dir -u [MACHINE IP] -w [WORDLIST PATH]
 ```
-![im1](
-
-#### 4. How can I escalate my privileges in RootMe CTF?
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_10_54_46.png)
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_10_22_26.png)
+#### 3. How can I escalate my privileges in RootMe CTF?
 To escalate privileges, you’ll need to find files with SUID permissions and then use a specific Python command to gain higher access.
