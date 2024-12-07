@@ -169,16 +169,55 @@ sudo openvpn [filename]
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-06_15_08_53.png)
  
 #### 2. What tools are used in RootMe CTF?
-In RootMe CTF, you’ll use tools like Nmap for scanning,Use GoBuster to discover hidden directories, and various commands for privilege escalation.
+In RootMe CTF, you’ll use tools like Nmap for scanning,Use GoBuster to discover hidden directories, generate or download reverse shell and various commands for privilege escalation.
 ```
 nmap -sV [TARGET MACHINE IP]
 ```
+![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_10_54_46.png)
 ```
 gobuster dir -u [MACHINE IP] -w [WORDLIST PATH]
 ```
-![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_10_54_46.png)
+**We discovered  that there is a hidden directory “/panel/”.**
+
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_10_22_26.png)
+**We will proceed to investigate the directories discovered using Gobuster.**
+
+**Now open the script in editor and change the $ip and $port to your host machine’s IP and port you want to listen on/my mashin ip/. Here i am keeping the default port which is “1234”. Now we have configured the script , rename the script using the command:**
+```
+mv php_reverse_shell.php php_reverse_shell.php5
+```
+ **We will proceed furthur and upload the script ```ip/panel```**
+ 
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot_2024-12-07_10_52_57.png)
+
+The script has been uploaded successfully.
+
+Moving on to the next step, we will initiate a listener using Netcat. I am using 1234 port which was already inserted in the script that we uploaded.
+
+Run the command:
+```
+nc -lvnp <PORT>
+```
+
+**After that open ``` ip/uploads`` and see uploads files 
+Execute the script and check back to see your netcat listener.**
+You will see that we have successfully gained the shell.
+
+Now let’s search for the flag. We know that it is in user.txt as it is mentioned in the question.
+
+Run the command and open the file: ```cat /var/www/user.txt```: 
+```
+find / -type f -name user.txt 2> /dev/null
+```
 #### 3. How can I escalate my privileges in RootMe CTF?
+**SUID (Set User ID) is a special file permission in Linux and UNIX-like operating systems that allows a program to execute with the privileges of the file's owner, rather than the user running the program. It is used to enable ordinary users to perform tasks that typically require elevated privileges.**
+
 To escalate privileges, you’ll need to find files with SUID permissions and then use a specific Python command to gain higher access.
+
+Checking for SUID Files
+To list all files with the SUID bit set:
+```
+find / -perm -4000 -type f 2>/dev/null
+```
+
 ![im1](https://github.com/Sonakhach/project2/blob/main/Screenshot%20from%202024-12-07%2022-37-30.png)
